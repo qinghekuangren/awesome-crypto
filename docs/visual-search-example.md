@@ -23,3 +23,15 @@ python docs/examples/visual_identifier_search.py <图片路径> \
 - `--show`：在窗口中展示标注结果。
 
 脚本会输出匹配到的编号位置以及识别到的二维码数据，并在启用 `--show` 时在窗口中显示识别框，方便进行视觉确认。
+
+## 下载示例代码
+
+如果需要将示例脚本打包成单独的压缩包供他人下载，可以运行仓库中提供的打包工具：
+
+```bash
+python docs/examples/package_visual_identifier_search.py
+# 或者指定输出路径
+python docs/examples/package_visual_identifier_search.py --output /tmp/visual-search-example.zip
+```
+
+上述命令会生成 `visual_identifier_search_example.zip`，其中包含 Python 示例脚本以及本使用指南，便于分发或离线查看。
